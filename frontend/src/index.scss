@@ -1,0 +1,23 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.home {
+    width: 100%;
+    min-height: 90vh;
+    background-color: #2a2a2a;
+    color: #f9f9f9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .text{
+        margin: 20px;
+    }
+    img {
+        max-height: 75vh;
+        max-width: 60vw;
+        align-self: flex-end;
+    }
+}
