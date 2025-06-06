@@ -5,7 +5,9 @@ function Home() {
         <div className='text'>
             <h3>Hello there! I'm</h3>
             <h1>Punpun (Punnawit Payapvattanavong) </h1>
-            <h2>[Insert Descrption here]</h2>
+            <br/><br/>
+            <h4>Computer Science Major | Mathematical Applications in Economics and Finance Specialist | Statistics Minor @ University of Toronto</h4>
+            <footer>[Contacts here]</footer>
         </div>
         <img src= {picture} alt="Punpun's Picture"/>
     </div>

@@ -12,12 +12,29 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    padding: 20px;
     .text{
         margin: 20px;
+        max-width: 40%;
+        display: flex;
+        flex-flow: column nowrap;
+
+        /* If the screen size is 601px wide or more, set the font-size of <div> to 80px */
+        @media screen and (min-width: 601px) {
+            font-size: 1rem;
+        }
+
+        /* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
+        @media screen and (max-width: 600px) {
+            font-size: 0.8rem;
+        }
     }
     img {
         max-height: 75vh;
         max-width: 60vw;
-        align-self: flex-end;
+        align-self: center;
+        @media screen and (max-width: 600px) {
+            max-height: 70vh;
+        }
     }
 }
