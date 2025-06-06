@@ -9,7 +9,7 @@ function Home() {
             <h4>Computer Science Major | Mathematical Applications in Economics and Finance Specialist | Statistics Minor @ University of Toronto</h4>
             <footer>[Contacts here]</footer>
         </div>
-        <img src= {picture} alt="Punpun's Picture"/>
+        {/*<img src= {picture} alt="Punpun's Picture"/>*/}
     </div>
 }
 
